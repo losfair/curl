@@ -1,0 +1,11 @@
+wasio_socket_accept
+wasio_socket_bind
+wasio_socket_connect
+wasio_socket_create
+wasio_socket_listen
+wasio_socket_local_addr
+wasio_socket_pre_accept
+wasio_socket_recv
+wasio_socket_remote_addr
+wasio_socket_send
+wasio_wait
