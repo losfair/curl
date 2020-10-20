@@ -11,4 +11,6 @@ export CFLAGS="-Wl,--allow-undefined-file=$PWD/wasio-symbols.txt"
 ./configure --host wasm32 \
     --disable-shared --disable-thread --disable-threaded-resolver \
     --without-libpsl --disable-netrc --disable-unix-sockets \
-    --disable-ipv6 --disable-tftp
+    --disable-ipv6 --disable-tftp \
+    --with-ssl=/home/zhy/Projects/openssl-wasi/OpenSSL \
+    --disable-ntlm-wb
